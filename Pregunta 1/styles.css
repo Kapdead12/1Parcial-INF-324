@@ -1,0 +1,85 @@
+
+        body {
+            background-image: url('fondo.jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+        }
+
+        .jumbotron {
+            background: linear-gradient(to right, #ff7e5f, #6a11cb);
+            border: 1px solid #ffffff; 
+            border-radius: 5px; 
+            color: white;
+        }
+
+        .card {
+            box-shadow: 0 0 2px rgba(255, 255, 255, 1); 
+        }
+
+        .card-header {
+            background: linear-gradient(to right, #ff7e5f,#ff7e5f, #6a11cb);
+            color: white;
+            font-size: 18px; /* Ajusta el tamaño según tu preferencia */
+            text-align: center; /* Centrar el texto opcionalmente */
+            padding: 15px; /* Ajusta el espaciado */
+
+        }
+        .card-body {
+            background-color: #ffecef;
+        }
+
+        .btn-primary {
+            background-color: #6a11cb;
+            border-color: #6a11cb;
+        }
+        .btn-primary:hover {
+            background-color: #fcd34d;
+            border-color: #feb47b;
+        }
+
+        .navbar-custom {
+            background:  linear-gradient(to right, #fcd34d,#ff7e5f, #6a11cb);
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: black;
+            background-color: #fcd34d;
+            border-color: #feb47b;
+        }
+
+        .navbar-custom .nav-link:hover {
+            color: white;
+            background:  #6a11cb;
+            border-color: #6a11cb;
+        }
+        .btn-custom {
+            background-color: #ff7e5f;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #feb47b;
+            border-color: #feb47b;
+            color: white;
+
+        }
+
+        .logo-gamlp {
+            height: 70px; /* Ajusta la altura según lo que prefieras */
+            width: auto; /* Mantiene la proporción de la imagen */
+            padding: 2px; /* Añade un poco de espacio alrededor de la imagen */
+            background-color: transparent; /* Asegura que no tenga fondo */
+        }
+
+        .logo-gamlp:hover {
+            transform: scale(1.1); 
+            opacity: 0.8; 
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            padding: 0; /* Elimina padding extra */
+            background-color: transparent; /* También asegura que el contenedor no tenga fondo */
+        }
+
